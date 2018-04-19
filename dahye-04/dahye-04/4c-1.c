@@ -8,18 +8,18 @@ int main()
 	int a[N];
 	int cnt = 0;
 	int retry;
-	puts("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	puts("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 
 	do {
-		printf("%d¹øÂ° Á¤¼ö : ", cnt + 1);
+		printf("%dë²ˆì§¸ ì •ìˆ˜ : ", cnt + 1);
 		scanf("%d", &a[cnt++ %N]);
-		printf("°è¼ÓÇÒ±î¿ä?(Yes-1/No-0) : ");
+		printf("ê³„ì†í• ê¹Œìš”?(Yes-1/No-0) : ");
 		scanf("%d", &retry);
 	} while (retry == 1);
 	i = cnt - N;
 	if (i < 0) i = 0;
 	for (; i < cnt; i++)
-		printf("%2d¹øÂ° Á¤¼ö = %d\n", i + 1, a[i%N]);
+		printf("%2dë²ˆì§¸ ì •ìˆ˜ = %d\n", i + 1, a[i%N]);
 
 	return 0;
 }
