@@ -45,6 +45,9 @@
     <ClCompile Include="..\..\..\..\..\..\..\WorkSpace\Visual Studio 2015\Project\4\4\Q2.c">
       <Filter>소스 파일\IntStack</Filter>
     </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\WorkSpace\Visual Studio 2015\Project\4\4\IntStack.h">
